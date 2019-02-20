@@ -1,0 +1,24 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation rootProject.ext.lib_appcompat
+    api rootProject.ext.lib_rxjava2_rxjava
+    api rootProject.ext.lib_rxjava2_rxandroid
+    api rootProject.ext.lib_retrofit2_retrofit
+    api rootProject.ext.lib_retrofit2_converter_gson
+    api rootProject.ext.lib_retrofit2_adapter_rxjava2
+    api rootProject.ext.lib_retrofit2_converter_scalars
+    api rootProject.ext.lib_okhttp3_logging_interceptor
+    api rootProject.ext.lib_okhttp3_okhttp
+    api rootProject.ext.lib_okio
+}

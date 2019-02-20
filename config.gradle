@@ -1,0 +1,24 @@
+ext {
+
+    compileSdkVersion = 28
+    minSdkVersion = 16
+    targetSdkVersion = 28
+
+    apkApplicationId = "com.rhino.retrofit2okhttp3"
+    apkVersionName = "1.0"
+    apkVersionCode = 1
+
+    lib_appcompat = 'com.android.support:appcompat-v7:28.0.0'
+    lib_rxjava2_rxjava = 'io.reactivex.rxjava2:rxjava:2.1.12'
+    lib_rxjava2_rxandroid = 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    lib_retrofit2_retrofit = 'com.squareup.retrofit2:retrofit:2.4.0'
+    lib_retrofit2_converter_gson = 'com.squareup.retrofit2:converter-gson:2.4.0'
+    lib_retrofit2_adapter_rxjava2 = 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    lib_retrofit2_converter_scalars =  'com.squareup.retrofit2:converter-scalars:2.0.0'
+    lib_okhttp3_okhttp = 'com.squareup.okhttp3:okhttp:3.10.0'
+    lib_okio = 'com.squareup.okio:okio:1.14.1'
+    lib_okhttp3_logging_interceptor = 'com.squareup.okhttp3:logging-interceptor:3.10.0'
+    lib_easypermissions = 'pub.devrel:easypermissions:2.0.0'
+
+}
+
